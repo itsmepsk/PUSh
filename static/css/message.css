@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Oct, 2014, 11:20:25 PM
+    Author     : Prathamesh
+*/
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle at 50% 40%, rgb(75, 75, 50), rgb(50, 50, 50));
+}
+
+.panel {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 14%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.success {
+    background-color: #5cb85c;
+}
+
+.fail {
+    background-color: #E68F8F;
+}
+
+.another {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.footer-custom {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}

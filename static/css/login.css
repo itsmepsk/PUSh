@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Oct, 2014, 7:01:59 PM
+    Author     : Prathamesh
+*/
+
+body {
+    margin: 0 auto;    
+}
+
+.container {
+    background-image: radial-gradient(circle at 50% 40%, rgb(75, 75, 50), rgb(50, 50, 50));
+    height: 100%;
+    width: 100%;
+}
+
+.panel {
+    max-width: 330px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.form_signin {
+    margin: 0 auto;
+    margin-top: 6%;
+    max-width: 330px;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.panel .panel-header {
+    background-color: #357ebd;
+    margin-top: 0px;
+    padding-top: 5px;
+    border-radius: 0px;
+}
+
+.panel .panel-header > .text-center {
+    font-size: 20px;
+    color: black;
+}
+
+.footer-custom {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+}
